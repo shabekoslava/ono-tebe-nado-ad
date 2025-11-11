@@ -1,0 +1,376 @@
+html {
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+  max-width: 1100px;
+  min-width: 760px;
+  align-items: center;
+
+}
+
+
+.header{
+  padding: 0 50px 0 50px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items:center;
+  height: 293px;
+}
+
+
+.nav_header{
+  grid-column: 1/2;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.019em;
+}
+
+
+.nav_header ul {
+  display: flex;
+  gap: 13px
+}
+
+
+.list_marker_header{
+  margin: 9px 0 6px 0;
+}
+
+
+.logo_header{
+  grid-column: 2/3;
+  margin: 92px 0 96px 3px;
+}
+
+
+.adress_header {
+  grid-column: 3/-1;
+  width: 240px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  justify-self: end;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+
+}
+
+
+
+.cover {
+  display: flex;
+  flex-direction: column;
+  background-image: url("/images/lotus-flower.svg");
+  height: 757px;
+  padding: 165px 50px 50px 50px;
+  box-sizing: border-box;
+}
+
+
+.cover_title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 100px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  line-height: 115%;
+  display: grid;
+  grid-template-rows: 115px 20px 115px 20px 115px;
+
+}
+
+.cover_text_aligned_start {
+  justify-self: start;
+  grid-row: 1/2;
+  width: 286px;
+
+}
+.cover_text_aligned_end {
+  justify-self: end;
+  grid-row: 5/-1;
+  width: 387px;
+
+}
+.cover_text_aligned_center {
+  justify-self: center;
+  grid-row: 3/4;
+  width: 339px;
+
+}
+
+
+.discription {
+  display: flex;
+  flex-direction: row;
+  margin-top: 106px;
+}
+
+.discripion_subline {
+  margin-right: auto;
+  margin: 12px 0 11px 0;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 22px;
+  line-height: 28px;
+
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+}
+
+.discription_whitespace{
+  display: inline-block;
+  width: 14px;
+}
+
+
+
+.discripion_button {
+  margin-left: auto;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 1);
+  padding: 12px 32px 11px 31px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.lots {
+  margin: 180px 24px 0 24px; 
+  height: 723px;
+}
+
+
+.lots_title {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-left: 40px;
+  line-height: 47px;
+  color: rgba(0, 0, 0, 1);
+}
+
+
+
+.list_of_lots {
+  display: grid;
+  grid-template-columns: 334px 25px 334px 25px 334px;
+  height: 596px;
+  margin-top: 27px;
+
+}
+
+
+.list_of_lots p,
+.list_of_lots h3 {
+  width: 254px;
+}
+
+
+.first_lot{
+  width: 334px;
+  grid-column: 1/2;
+  padding: 48px 40px;
+  box-sizing: border-box;
+  background-image: url("/images/first_lot_back.svg");
+  position: relative;
+}
+
+
+.second_lot{
+  width: 334px;
+  grid-column: 3/4;
+  padding: 48px 40px;
+  box-sizing: border-box;
+  background-image: url("/images/second_lot_back.svg");
+  position: relative;
+}
+
+
+.third_lot{
+  width: 334px;
+  grid-column: 5/-1;
+  padding: 48px 40px 48px 40px;
+  box-sizing: border-box;
+  background-image: url("/images/third_lot_back.svg");
+  position: relative;
+}
+
+
+.first_lot,
+.second_lot,
+.third_lot {
+  display: flex;
+  flex-direction: column; 
+}
+
+
+.first_lot::before,
+.second_lot::before,
+.third_lot::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+
+.texts_of_everylots {
+  margin-top: auto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  z-index: 1;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+
+}
+
+
+.titles_of_everylots {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  z-index: 1;
+  text-underline-offset: 4px;
+  line-height: 26.4px;
+}
+
+
+.see_more{
+  display: inline-block;
+  margin: 30px 0 0 40px;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  line-height: 23px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.text_link {
+  color: inherit;       
+  font: inherit;
+  text-underline-offset: 4px;
+}
+
+
+.about {
+  margin: 120px 24px 0 24px;
+  width: 1052px;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+}
+
+.logo_about {
+  grid-column: 1/2;
+  width: 240px;
+  height: 240px;
+  margin: 35px 72px 320px 47px;
+}
+
+.all_text_about {
+  width: 693px;
+  height: 449px;
+  margin: 133px 0 13px 0;
+}
+
+.title_about {
+  margin: 3px 402px 0 0;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 47px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.text_about {
+  margin: 100px 0 0 0;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.006em;
+  color: rgba(0, 0, 0, 1);
+}
+
+text_about_1p {
+  margin: 0 5px 0 0;
+  width: 688px;
+  height: 120px;
+}
+
+.text_about_2p {
+  margin: 24px 0 0 0;
+  width: 693px
+}
+
+.footer {
+  margin-top: 180px;
+  height: 180px;
+  padding: 0 50px 0 50px;
+  box-sizing: border-box;
+
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items:center;
+}
+
+
+
+.adress_footer {
+  margin: 0 0 82px 0;
+  grid-column: 1/2;
+  width: 264.57px;
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+.nav_footer{
+  margin: 1px 0 115px 0;
+  display: flex;
+  width: 163.9;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+  grid-column: 2/3;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.019em;
+}
+
+
+.social_links{
+  margin: 1px 0 131px 0;
+  display: flex;
+  flex-direction: row;
+  justify-self: end;
+  gap: 48px;
+}
