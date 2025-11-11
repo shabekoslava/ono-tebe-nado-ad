@@ -1,1 +1,1 @@
-https://github.com/yandex-praktikum/ono-tebe-nado-ad/tree/main#
+https://github.com/shabekoslava/ono-tebe-nado-ad#
