@@ -140,7 +140,7 @@ body {
 
 
 .lots {
-  margin: 180px 24px 0 24px; 
+  margin: 180px 24px 0 24px;
   height: 723px;
 }
 
@@ -259,7 +259,7 @@ body {
 }
 
 .text_link {
-  color: inherit;       
+  color: inherit;
   font: inherit;
   text-underline-offset: 4px;
 }
