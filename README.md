@@ -1,1 +1,1 @@
-https://github.com/shabekoslava/ono-tebe-nado-ad#
+https://github.com/shabekoslava/ono-tebe-nado-ad
